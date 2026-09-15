@@ -1,0 +1,6 @@
+{
+  "description": "Storytime above the prompt: a local 260K-parameter transformer writes a story seeded by the tool Claude just called and the file it touched; /story restarts or hides it",
+  "modules": [
+    "./register.ts"
+  ]
+}

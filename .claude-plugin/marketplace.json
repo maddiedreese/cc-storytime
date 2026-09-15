@@ -1,0 +1,19 @@
+{
+  "name": "cc-storytime",
+  "owner": {
+    "name": "Maddie Dreese",
+    "url": "https://github.com/maddiedreese"
+  },
+  "metadata": {
+    "description": "Storytime: a tiny local transformer that writes stories above the Claude Code prompt"
+  },
+  "plugins": [
+    {
+      "name": "storytime",
+      "source": "./",
+      "description": "Storytime: a 260K-parameter TinyStories transformer running inside Claude Code as a mod. It writes a short story above the prompt about whatever Claude is working on, locally, with zero API tokens.",
+      "version": "0.1.0",
+      "category": "fun"
+    }
+  ]
+}
